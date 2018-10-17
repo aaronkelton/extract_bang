@@ -1,6 +1,4 @@
-module ExtractBang
-  VERSION = "0.0.1"
-end
+require File.expand_path("../lib/extract_bang/version", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'extract_bang'
