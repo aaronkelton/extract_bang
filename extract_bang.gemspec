@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.authors     = ["Aaron Kelton"]
   s.email       = 'aaron.k.kelton@gmail.com'
   s.homepage    = 'https://github.com/chemturion/extract_bang'
-  s.files       = ["lib/extract_bang.rb"]
+  s.files       = `git ls-files -z`.split("\x0")
 end
